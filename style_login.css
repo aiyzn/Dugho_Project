@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:wght@200&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Chivo Mono', monospace;*/
+
+body{
+  background-image: url(buildings.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px; 
+}
+
+header{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+}
+
+p{
+  font-family: 'Chivo Mono', monospace;
+  text-align: center;
+  font-size: 120%;
+}
+
+div.info{
+text-align: center;
+color: black;
+margin: 20px auto 20px;
+padding: auto;
+width: 60%;
+border-radius: 25px;
+float: right;
+}
+
+div.intro{
+text-align: center;
+color: black;
+margin: 50px auto 20px;
+padding: auto;
+width: 60%;
+border-radius: 25px;
+float: left;
+font-size: 80%;
+}
+
+div.login_form{
+  display: inline-block;
+  background-color: #808080;
+  border-radius: 7px;
+  margin: 50px auto 20px;
+  padding: auto;
+  opacity: 90%;
+}
+
+div.login_box{
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+  font-family: 'Chivo Mono', monospace;
+}
+
+button {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Chivo Mono', monospace;
+  
+}
+
+a{
+   font-family: 'Chivo Mono', monospace;
+   color: white;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  opacity: 78%;
+  text-align: center;
+}
+#footer ul, #footer a {
+  display: inline-block;
+}
+
+#fb a{
+  background: url('sprites.png') -50px -23px;
+  width: 48px;
+  height: 49px;
+}
+
+#fb {
+  display: inline-block;
+  position: absolute center;
+}
+
+#fb a:hover{
+  background: url('sprites.png') -50px -78px; 
+  width: 48px;
+  height: 49px;
+}
+
+#ig a{
+  background: url('sprites.png') -156px -23px;
+  width: 48px;
+  height: 49px;
+}
+
+#ig{
+  display: inline-block;
+  position: absolute center;
+}
+
+#ig a:hover{
+  background: url('sprites.png') -156px -78px;
+  width: 48px;
+  height: 49px;
+}
+#twt a{
+  background: url('sprites.png') -103px -23px;
+  width: 48px;
+  height: 49px;
+}
+
+#twt{
+  display: inline-block;
+  position: absolute center;
+}
+
+#twt a:hover{
+  background: url('sprites.png')  -103px -78px;
+  width: 48px;
+  height: 49px;
+}
